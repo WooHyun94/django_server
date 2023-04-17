@@ -1,0 +1,17 @@
+names:
+- bearse
+- doctor_bearse
+- festal_gold
+- festal_plus
+- panpyrin_t
+- tylenol
+nc: 6
+roboflow:
+  license: MIT
+  project: pill_detector
+  url: https://universe.roboflow.com/project/pill_detector/dataset/1
+  version: 1
+  workspace: project
+test: ../test/images
+train: pill_detector-1/train/images
+val: pill_detector-1/valid/images
